@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS - 6 (Work with html forms)</title>
+</head>
+<body>
+  <form id="main-form" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Name" id="name"><br><br>
+    <label for="password">Password: </label>
+    <input type="password" name="pass" placeholder="Password" id="pass"><br><br>
+    <label for="repass">RePassword</label>
+    <input type="password" name="repass" placeholder="Password again" id="repass"><br><br>
+    <span>Sex:</span>
+    <input type="radio" name="state" id="male" value="Man">
+    <label for="male">Man</label>
+    <input type="radio" name="state" id="female" value="woman">
+    <label for="female">Woman</label><br><br>
+    <div id="error" style="color: red;"></div>
+    <input type="submit" name="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
