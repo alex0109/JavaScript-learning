@@ -30,7 +30,7 @@ console.log(log);
 let newArr = new Array(10).fill("10");
 
 // Перевернутая строка
-ler strrev = str => str.split("").reverse().join("");
+let strrev = str => str.split("").reverse().join("");
 console.log(strrev("Reybey"));
 
 // Случайное значение из массива
