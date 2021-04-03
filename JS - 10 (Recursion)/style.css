@@ -1,0 +1,9 @@
+.test-2 {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.red {
+	background: red;
+}
