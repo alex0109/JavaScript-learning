@@ -19,48 +19,6 @@ const palindrom = () => {
 	return revStr == str ? out.innerHTML = 'Да' : out.innerHTML = 'Нет';
 };
 
-// const createArr = () => {
-// 	const out = document.querySelector('#out2');
-// 	let num1 = document.querySelector('#num3').value;
-// 	let num2 = document.querySelector('#num4').value;
-
-// 	let array = []
-
-// 	for(let i = num1; i < num2; i++) {
-// 		array.push(i);
-// 	}
-
-// 	out.innerHTML = array;
-// };
-
-// const double = () => {
-// 	const out = document.querySelector('#out2');
-// 	let num1 = document.querySelector('#num3').value;
-// 	let num2 = document.querySelector('#num4').value;
-
-// 	let array = []
-
-// 	for(let i = num1; i < num2; i++) {
-// 		if (i % 2 == false) array.push(i);
-// 	}
-
-// 	out.innerHTML = array;
-// };
-
-// const notDouble = () => {
-// 	const out = document.querySelector('#out2');
-// 	let num1 = document.querySelector('#num3').value;
-// 	let num2 = document.querySelector('#num4').value;
-
-// 	let array = []
-
-// 	for(let i = num1; i < num2; i++) {
-// 		if (i % 2) array.push(i);
-// 	}
-
-// 	out.innerHTML = array;
-// }
-
 const arrayFunc = (key) => {
 	const out = document.querySelector('#out2');
 	let num1 = document.querySelector('#num3').value;
